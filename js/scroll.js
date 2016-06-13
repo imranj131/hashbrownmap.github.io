@@ -22,5 +22,13 @@ $(document).ready(function(){
        }    
    });
     }
+    var ypos, image;
+    function parallax(){
+        ypos = window.pageYOffset;
+        image = document.getElementById('stage');
+        image.style.top = ypos * 0.4 + 'px';
+    }
+    window.addEventListener('scroll',parallax);
+
 });
 

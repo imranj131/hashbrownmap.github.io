@@ -25,10 +25,10 @@ h6{
 .navbar{
     background:transparent;
     border: none !important;
-    padding-top: 1.5rem;
+    padding-top: 0.8rem;
     padding-left: 9rem;
     padding-right:9rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0.7rem;
 }
 
 .navbar ul li {
@@ -37,7 +37,7 @@ h6{
 
 	margin-left: 10px;
 	margin-right: 10px;
-    font-size: 150%;
+    font-size: 120%;
 }
 
 @media screen and (max-device-width:1080px), screen and (max-width:1080px) {
@@ -83,8 +83,9 @@ img{
     height: 100%;
     width: 100%;
     display: flex;
-    position: fixed;
+    position: relative;
     align-items: center;
+    z-index: -1;
 }
 
 #stage-caption{
@@ -104,7 +105,8 @@ img{
 #over{
     width: 100%;
     position: relative;
-    top: 1100px;
+    height: 1100px;
+    z-index: 1;
 }
 
 .feature-content{
