@@ -61,7 +61,7 @@ h6{
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus
 .spacer{
-   background-color:#888;   
+   background-color:#140f0f;   
 }
 
 
@@ -72,7 +72,7 @@ img{
 
 .blockquote {
     font-size: 1.6rem;
-    color: #333;
+    color: #140f0f;
     border: none;
     padding: 0;
 }
@@ -118,6 +118,10 @@ img{
     overflow: hidden;
 }
 
+.my-button { border-color: white; background-color: #61c0bf;}
+.my-button:hover {color: darkgrey; border-color: white; background-color: white; }
+
+
 .feature-content img{
     /*margin-bottom: 8rem;*/
 }
@@ -149,16 +153,20 @@ img{
 }
 
 .card {
-  /*float: left;*/
-  /*width: 25%;*/
+  float: left;
+  width: 25%;
   padding: .75rem;
-  margin-bottom: 2rem;
+  margin-bottom: 9rem;
   border: 0;
 }
 
-.card > img {
-  margin-bottom: 2rem;
+.card > .hidden-sm-down > img {
+  padding-bottom: 2rem;
   max-width: 100%;
+  
+}
+.card >center> h5{
+    font-weight: bold;
 }
 
 .card-text {
