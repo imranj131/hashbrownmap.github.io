@@ -9,6 +9,8 @@
     <script src="js/wow.min.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/skrollr.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    
 
     <script>
         new WOW().init();
@@ -16,10 +18,14 @@
     <script type="text/javascript">
         var s = skrollr.init();
     </script>
+
+		
     <!-- custom css -->
-    <link rel="stylesheet" href="animate.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="production.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" type="text/css" href="css/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
 
 </head>
 <body>
@@ -55,24 +61,72 @@
         </div>
     </div>
     <div id="over">
+
+
         <section id="feature-one" class="change feature-light">
             <div class="container">
-                <div class="row">
-                    <div class="feature-content">
-                        <div class="col-md-6 text-sm-center hidden-sm-down social wow slideInLeft animated"  data-wow-duration="2s" >
-                            <img src="img/crowd.png" alt="">
-                        </div>
-                        <div class="col-md-6 feature-caption">
-                            <h6>CROWD MANAGEMENT</h6>
-                            <h2>TAKE CONTROL OF THE CROWD</h2>
-                            <p class="lead">Real-time crowd density mapping allows you to redirect your security staff, thus optimising crowd management and monitoring distribution</p>
-                            <a href="" role="button" class="btn btn-secondary-outline btn-lg">Learn More</a>
-                        </div>
-                    </div>
-                </div>
+                <br>
+                <br>
+                <h2><center>Main Features</center></h2>
+                <div class="col-md-6 col-md-offset-3">
+				    <p> <center> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis itaque voluptatibus porro saepe reprehenderit voluptates hic deserunt vitae tenetur enim facilis, quia! Natus at numquam, ullam ratione dolor et voluptatum!</center></p>
+			    </div>
             </div>
+                <div class="tabs tabs-style-fillup">
+                    <div class="content-wrap">
+						<section id="section-fillup-1">
+                            <div class="feature-content">
+                            <div class="col-md-6 hidden-sm-down social wow slideInLeft animated" data-wow-duration="2s">
+                                <img src="img/CROWD.png" alt="lol"> 
+                            </div>
+                            <div class="col-md-5 col-md-offset-1">
+                                <h6>CROWD MANAGEMENT</h6>
+                                <h2>CONTROL CROWD MAGICALLY IDK</h2>
+                                <h5>Packed with a emergency button, users can  feel safe at any location of the festival area. Once activated, nearest security staff will be conveyed with coordinates of the attendee for a quick emergency response<h5>
+                                <a href="" role="button" class="btn my-button btn-secondary-outline btn-lg">Learn More</a>
+                            </div>
+                             </div>
+                        </section>
+						<section id="section-fillup-2">
+                            <div class="feature-content">
+                            <div class="col-md-6 feature-caption">
+                                <h6>ACCESSBILITY</h6>
+                                <h2 style="color:#2CC185;">NEVER LOOSE A FRIEND</h2>
+                                <h5>Easily locate security personnels and friends through the mobile application's interactive map  that is made compatible with the device</h5>
+                                <a href="" role="button" class="btn my-button btn-secondary-outline btn-lg">Learn More</a>
+                            </div>
+                            <div class="col-md-6 text-sm-center hidden-sm-down social wow slideInRight animated" data-wow-duration="2s">
+                                <img src="img/locator.png" alt="">
+                            </div>
+                            </div>
+                        </section>
+						<section id="section-fillup-3">
+                            <div class="feature-content">
+                            <div class="col-md-6 hidden-sm-down social wow slideInLeft animated" data-wow-duration="2s">
+                                <img src="img/empower.png" alt="lol"> 
+                            </div>
+                            <div class="col-md-5 col-md-offset-1">
+                                <h6>EMPOWERMENT</h6>
+                                <h2>SAFE AT ANY MINUTE IDK</h2>
+                                <h5>Packed with a emergency button, users can  feel safe at any location of the festival area. Once activated, nearest security staff will be conveyed with coordinates of the attendee for a quick emergency response<h5>
+                                <a href="" role="button" class="btn my-button btn-secondary-outline btn-lg">Learn More</a>
+                            </div>
+                             </div>
+                        </section>
+					</div><!-- /content -->
+					<nav>
+						<ul>
+							<li><a href="#section-fillup-1" STYLE="text-decoration: none" class="icon icon-home"><span>Crowd Management</span></a></li>
+							<li><a href="#section-fillup-2" STYLE="text-decoration: none" class="icon icon-gift"><span>Accessbility</span></a></li>
+							<li><a href="#section-fillup-3" STYLE="text-decoration: none" class="icon icon-upload"><span>Empowerment</span></a></li>
+						<!--	<li><a href="#section-fillup-4" class="icon icon-coffee"><span>Work</span></a></li>
+							<li><a href="#section-fillup-5" class="icon icon-config"><span>Settings</span></a></li>-->
+						</ul>
+					</nav>
+					
+				</div><!-- /tabs -->
         </section>
-
+<!--
         <section id="feature-two" class="feature-dark">
             <div class="container">
                 <div class="row">
@@ -108,111 +162,40 @@
                 </div>
             </div>
         </section>
-
+-->
         <div class="album text-muted">
         <div class="container">
             <h3 style="font-weight:bold;"><center>ADDITIONAL FEATURES</center> </h3>
             <br>
             <div class="row">
-            <div class="card col-md-3 ">
-                <div class="hidden-sm-down"><center><img src="img/socialmedia.png" alt="Card image cap"></center></div>
-                <center><h5>Social Media Integration</h5></center>
-                <hr class="hidden-md-up">
-                <p class="card-text"> Provide an engaging event for users. Connects sponsors with users directly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut est deleniti, harum maiores esse dolorem laboriosam quam illo omnis quis, nobis, voluptates. </p>
-            </div>
-            <div class="card col-md-3 ">
-                <div class="hidden-sm-down"><center><img src="img/cash.png" alt="Card image cap"></center></div>
-                <center><h5>Cashless Payment</h5></center>
-                <hr class="hidden-md-up">
-                <p class="card-text"> Provide an engaging event for users. Connects sponsors with users directly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut est deleniti, harum maiores esse dolorem laboriosam quam illo omnis quis, nobis, voluptates. </p>
-            </div>
-            <div class="card col-md-3 ">
-                <div class="hidden-sm-down"><center><img src="img/smart.png" alt="Card image cap"></center></div>
-                <center><h5>Business Intelligence</h5></center>
-                <hr class="hidden-md-up">
-                <p class="card-text"> Collects data and offers in-depth insights improving decision making. Can help retain attendees, improve customer experiences, select bands etc. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut est deleniti, harum maiores esse dolorem laboriosam quam illo omnis quis, nobis, voluptates. </p>
-            </div>
-            <div class="card col-md-3 ">
-                <div class="hidden-sm-down"><center><img src="img/entry.png" alt="Card image cap"></center></div>
-                <center><h5>Automated Check-in</h5></center>
-                <hr class="hidden-md-up">
-                <p class="card-text"> Improves speed and efficiency. Reduce staffing cost. Eliminate fraud. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut est deleniti, harum maiores esse dolorem laboriosam quam illo omnis quis, nobis, voluptates. </p>
-            </div>
+                <div class="card col-md-3 ">
+                    <div class="hidden-sm-down"><center><img src="img/socialmedia.png" alt="Card image cap"></center></div>
+                    <center><h5>Social Media Integration</h5></center>
+                    <hr class="hidden-md-up">
+                    <p class="card-text"> Provide an engaging event for users. Connects sponsors with users directly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut est deleniti, harum maiores esse dolorem laboriosam quam illo omnis quis, nobis, voluptates. </p>
+                </div>
+                <div class="card col-md-3 ">
+                    <div class="hidden-sm-down"><center><img src="img/cash.png" alt="Card image cap"></center></div>
+                    <center><h5>Cashless Payment</h5></center>
+                    <hr class="hidden-md-up">
+                    <p class="card-text"> Provide an engaging event for users. Connects sponsors with users directly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut est deleniti, harum maiores esse dolorem laboriosam quam illo omnis quis, nobis, voluptates. </p>
+                </div>
+                <div class="card col-md-3 ">
+                    <div class="hidden-sm-down"><center><img src="img/smart.png" alt="Card image cap"></center></div>
+                    <center><h5>Business Intelligence</h5></center>
+                    <hr class="hidden-md-up">
+                    <p class="card-text"> Collects data and offers in-depth insights improving decision making. Can help retain attendees, improve customer experiences, select bands etc. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut est deleniti, harum maiores esse dolorem laboriosam quam illo omnis quis, nobis, voluptates. </p>
+                </div>
+                <div class="card col-md-3 ">
+                    <div class="hidden-sm-down"><center><img src="img/entry.png" alt="Card image cap"></center></div>
+                    <center><h5>Automated Check-in</h5></center>
+                    <hr class="hidden-md-up">
+                    <p class="card-text"> Improves speed and efficiency. Reduce staffing cost. Eliminate fraud. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut est deleniti, harum maiores esse dolorem laboriosam quam illo omnis quis, nobis, voluptates. </p>
+                </div>
             </div>
         </div>
         </div>
 
-
-<!--
-		<section class="section home-collaboration" id="home-collaboration">
-
-			<div class="section-inner" data-500-top-bottom="transform: translateY(0px); opacity: 1" data-100-top-bottom="transform: translateY(100px); opacity: 0">
-				<div class="container">
-					<h2 class="section-title">Main Features</h2>
-                    <br>
-					<p class="section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, eius necessitatibus laborum adipisci repudiandae vero placeat. Et alias ea, ipsa atque deleniti doloribus minima modi quae, accusamus voluptatibus, ipsum magnam.</p>
-				</div>
-
-				<div class="subsection subsection-plane">
-
-					<div class="subsection-angle subsection-1">
-						<div class="subsection-inner" data-400-top-bottom="opacity: 1" data-top-bottom="opacity: 0">
-							<div class="container">
-								<a href="/features/collaboration#collab">
-									<h3 class="subsection-title">Crowd Management</h3><br>
-									<div class="img-outer">
-										<div class="img-inner">
-											<img class="img-responsive" src="img/crowd.png" width="422" height="367" alt="paper airplane">
-										</div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-
-					<div data--1000-bottom-top="transform: translateY(160px)" data--700-bottom-top="transform: translateY(0px)">
-						<div class="subsection subsection-link">
-							<div class="subsection-angle subsection-2">
-								<div class="subsection-inner" data-460-top-bottom="opacity: 1" data-60-top-bottom="opacity: 0">
-									<div class="container">
-										<a href="/features/collaboration#share">
-											<h3 class="subsection-title">Accessbility</h3><br>
-											<div class="img-outer">
-												<div class="img-inner">
-													<img class="img-responsive" src="img/map.png" width="336" height="336" alt="apple keyboard">
-												</div>
-											</div>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="subsection subsection-keyboard" data--100-bottom-top="transform: translateY(100px)" data--700-bottom-top="transform: translateY(-40px)">
-						<div class="subsection-angle subsection-3">
-							<div class="subsection-inner">
-								<div class="container">
-									<a href="/features/collaboration#paircoding">
-										<h3 class="subsection-title">Empowerment</h3><br>
-										<div class="img-outer">
-											<div class="img-inner">
-												<img class="img-responsive" src="img/empower.png" width="370" height="273" alt="chat bubbles">
-											</div>
-										</div>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-
-		</section>
-
--->
     <footer id="main-footer">
         <div class="container">
             <div class="row">
@@ -237,7 +220,16 @@
     </footer>
 
     </div>
+    <script src="js/cbpFWTabs.js"></script>
+		<script>
+			(function() {
 
+				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+					new CBPFWTabs( el );
+				});
+
+			})();
+	</script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <!-- for JQuery -->
     <script src='bootstrap4/bower_components/bootstrap/dist/js/bootstrap.min.js'></script>
