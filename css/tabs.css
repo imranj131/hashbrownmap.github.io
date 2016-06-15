@@ -15,10 +15,9 @@
 	position: relative;
 	overflow: hidden;
 	margin: 0 auto;
-	width: 100%;
+/*	width: 100%;*/
 	font-weight: 300;
-	font-size: 2rem;
-	padding-bottom: -1rem;
+	font-size: 1.7rem;
 }
 
 /* Nav */
@@ -92,7 +91,7 @@
 	text-transform: none;
 	font-weight: normal;
 	font-variant: normal;
-	font-size: 1.6em;
+	font-size: 1.3em;
 	font-family: 'stroke7pixeden';
 	line-height: 1;
 	speak: none;
@@ -155,7 +154,7 @@
 .content-wrap section {
 	display: none;
 	margin: 0 auto;
-	padding: 1em;
+	padding: .5em;
 	max-width: 1200px;
 	text-align: center;
 }

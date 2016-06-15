@@ -135,7 +135,7 @@ img{
     max-height:600px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
     .feature-content{min-height: 420px; max-height: 420px}
 }
 
