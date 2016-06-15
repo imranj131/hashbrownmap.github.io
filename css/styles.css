@@ -29,7 +29,7 @@ h6{
 .navbar{
     background:transparent;
     border: none !important;
-    padding-top: 0.4rem;
+    padding-top: 0.7rem;
     padding-left: 9rem;
     padding-right:9rem;
     padding-bottom: 0.3rem;
@@ -42,6 +42,15 @@ h6{
 	margin-left: 10px;
 	margin-right: 10px;
     font-size: 120%;
+}
+
+
+.navbar-collapse h4 {
+  color: #818a91;
+}
+
+.navbar-collapse .text-muted {
+  color: #818a91;
 }
 
 @media screen and (max-device-width:1080px), screen and (max-width:1080px) {
@@ -63,8 +72,6 @@ h6{
 .spacer{
    background-color:#140f0f;   
 }
-
-
 
 img{
     max-width: 100%;
@@ -117,6 +124,7 @@ img{
     position: relative;
     height: 1100px;
     z-index: 1;
+    
 }
 
 .feature-content{
@@ -129,6 +137,7 @@ img{
 
 .my-button { color: grey; border-color: #2CC185; background-color: white;}
 .my-button:hover {color: white; border-color: white; background-color: #2CC185; }
+
 
 
 .feature-content h2{
@@ -192,7 +201,7 @@ img{
     background: #262f36;
     color: white;
     padding: 6rem 0;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 #main-footer h6{
