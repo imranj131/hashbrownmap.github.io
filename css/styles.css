@@ -89,7 +89,7 @@ img{
 }
 
 #stage{
-    background: url('../img/red.jpg') bottom no-repeat;
+    background: url('../img/back.jpg') bottom no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -134,6 +134,11 @@ img{
     min-height: 600px;
     max-height:600px;
 }
+
+@media screen and (max-width: 480px) {
+    .feature-content{min-height: 420px; max-height: 420px}
+}
+
 
 .my-button { color: grey; border-color: #2CC185; background-color: white;}
 .my-button:hover {color: white; border-color: white; background-color: #2CC185; }
@@ -198,13 +203,13 @@ img{
 }
 
 #main-footer{
-    background: #262f36;
+    background: lightgrey;
     color: white;
-    padding: 6rem 0;
+    padding: 4rem 0;
     font-size: 1rem;
 }
 
-#main-footer h6{
+#main-footer h4{
     color: #718FA9;
 
 }
