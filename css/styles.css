@@ -92,11 +92,16 @@ img{
     z-index: -1;
 }
 
+@media screen and (max-width: 480px) {
+    #stage-caption h1{font-size: 30px; font-weight: 900;}
+    #stage-caption p{font-size: 20px;}
+}
+
+
 #stage-caption{
     font-size: 1.4rem;
     font-weight: 200;
     max-width: 60rem;
-    margin: 0 auto;
     text-align: center;
 }
 
@@ -115,16 +120,19 @@ img{
 }
 
 .feature-content{
-    padding: 8rem 0;
+    padding-bottom: 8rem;
+    padding-top: 2rem;
     overflow: hidden;
+    min-height: 600px;
+    max-height:600px;
 }
 
 .my-button { color: grey; border-color: #2CC185; background-color: white;}
 .my-button:hover {color: white; border-color: white; background-color: #2CC185; }
 
 
-.feature-content img{
-    /*margin-bottom: 8rem;*/
+.feature-content h2{
+    color:#2CC185;
 }
 
 .feature-light{

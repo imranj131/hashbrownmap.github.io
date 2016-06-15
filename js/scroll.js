@@ -12,8 +12,15 @@ $(document).ready(function(){
        }
        if(scroll_start > 200){
             $("#stage").css({
-            'opacity' : 1-(($(this).scrollTop())/7000)
+            'opacity' : 1-(($(this).scrollTop())/9000)
             });
+            $(".display-3").css({
+            'opacity' : 1-(($(this).scrollTop())/1300)
+            });
+            $(".dis").css({
+            'opacity' : 1-(($(this).scrollTop())/1300)
+            });
+
        }
        if(scroll_start==0){
            $("#stage").css({
