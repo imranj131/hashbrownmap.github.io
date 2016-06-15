@@ -140,13 +140,13 @@ img{
 }
 
 
-.my-button { color: grey; border-color: #2CC185; background-color: white;}
-.my-button:hover {color: white; border-color: white; background-color: #2CC185; }
+.my-button { color: grey; border-color: #103b65; background-color: white;}
+.my-button:hover {color: white; border-color: white; background-color: #103b65; }
 
 
 
 .feature-content h2{
-    color:#2CC185;
+    color:#103b65;
 }
 
 .feature-light{
