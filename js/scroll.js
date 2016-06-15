@@ -37,5 +37,7 @@ $(document).ready(function(){
     }
     window.addEventListener('scroll',parallax);
 
+    $('.parallax-window').parallax({imageSrc: '../img/para.jpg'});
+
 });
 

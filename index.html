@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- width of screen and initial scale is just regular zoom-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/css/bootstrap.min.css">
      <script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <!-- for JQuery -->
     <script src="js/wow.min.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/skrollr.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
+    <script src="js/parallax.min.js"></script>
     
 
     <script>
         new WOW().init();
+        new parallax().init():
     </script>
-    <script type="text/javascript">
+    <script>
         var s = skrollr.init();
     </script>
 
@@ -72,10 +75,11 @@
                 <br>
                 <h2 style="color:#103b65; font-weight:bold;"><center>MAIN FEATURES</center></h2>
                 <div class="col-md-6 col-md-offset-3">
-				    <p> <center> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis itaque voluptatibus porro saepe reprehenderit voluptates hic deserunt vitae tenetur enim facilis, quia! Natus at numquam, ullam ratione dolor et voluptatum!</center></p>
+				    <!--<p> <center> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis itaque voluptatibus porro saepe reprehenderit voluptates hic deserunt vitae tenetur enim facilis, quia! Natus at numquam, ullam ratione dolor et voluptatum!</center></p>-->
 			    </div>
             </div>
                 <div class="tabs tabs-style-fillup">
+
                     <div class="content-wrap">
 						<section id="section-fillup-1">
                             <div class="feature-content">
@@ -120,7 +124,8 @@
                              </div>
                         </section>
 					</div><!-- /content -->
-					<nav>
+					<!-- WHERE TO PUT TABS -->
+                    <nav>
 						<ul>
 							<li><a href="#section-fillup-1" STYLE="text-decoration: none" class="icon icon-config"><span>Crowd Management</span></a></li>
 							<li><a href="#section-fillup-2" STYLE="text-decoration: none" class="icon icon-box"><span>Accessbility</span></a></li>
@@ -129,9 +134,12 @@
 							<li><a href="#section-fillup-5" class="icon icon-config"><span>Settings</span></a></li>-->
 						</ul>
 					</nav>
-					
 				</div><!-- /tabs -->
         </section>
+       
+
+       <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-image-src="img/para.jpg" data-natural-width="1400" data-natural-height="900"></div>
+
 
         <div class="album text-muted">
         <div class="container">
@@ -165,23 +173,25 @@
             </div>
         </div>
         </div>
+<div class="parallax-section" data-parallax="scroll" data-position="top" data-image-src="http://invibed.com/wp-content/uploads/2016/01/rsz_millennials_-_music_festival_three_girls.jpg" data-natural-width="1400" data-natural-height="900"></div>
+    
 
     <footer id="main-footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <img src="img/rhodium.png" height="100" alt="">
+                <div class="col-sm-6">
+                    <center><img src="img/rhodium.png" height="80" alt=""></center>
                 </div>
-                <col-md-2>
-                    <h4>Contact</h4>
-                    <h5>hello@rodium.io</h5>
-                </col-md-2>
-                <col-md-2></col-md-2>
+                <div class="col-sm-6">
+                    <br>
+                    <center><h4>Contact</h4>
+                    <h5>hello@rodium.io</h5></center>
+                </div>
             </div>
         </div>
     </footer>
 
-    </div>
+ </div>
     <script src="js/cbpFWTabs.js"></script>
 		<script>
 			(function() {
@@ -194,7 +204,7 @@
 	</script>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <!-- for JQuery -->
+
     <script src='bootstrap4/bower_components/bootstrap/dist/js/bootstrap.min.js'></script>
 </body>
 </html>
