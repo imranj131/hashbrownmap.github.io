@@ -5,7 +5,7 @@ $(document).ready(function(){
     if (startchange.length){
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
-      if(scroll_start > offset.top) {
+      if(scroll_start > offset.top - 75) {
           $(".navbar").css('background', 'white');
        } else {
           $('.navbar').css('background', 'transparent');

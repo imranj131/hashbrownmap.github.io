@@ -58,6 +58,7 @@
 	-moz-flex: 1;
 	-ms-flex: 1;
 	flex: 1;
+
 }
 
 .tabs nav a {
@@ -67,11 +68,13 @@
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	line-height: 2.5;
+	
 }
 
 .tabs nav a span {
 	vertical-align: middle;
 	font-size: 0.75em;
+		
 }
 
 .tabs nav li.tab-current a {
@@ -99,6 +102,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+
 .icon-upload::before {
 	content: "\e68a";
 }
@@ -126,6 +130,7 @@
 .icon-date::before {
 	content: "\e660";
 }
+
 .icon-config::before {
 	content: "\e666";
 }
